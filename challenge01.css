@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+}
+.apple {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  width: auto;
+  padding-top: 10px;
+}
+
+li {
+  float: right;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px;
+}
+li a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#headIcons i {
+  width: 25%;
+  margin-right: -4px;
+  text-align: center;
+  padding: 10px 0;
+}
+#headIcons a:nth-child(1) i {
+  background-color: #d9d9d9;
+}
+#headIcons a:nth-child(2) i {
+  background-color: #bab7a8;
+}
+#headIcons a:nth-child(3) i {
+  background-color: #9adecf;
+}
+#headIcons a:nth-child(4) i {
+  background-color: #99a6b7;
+}
+#content div:nth-child(1) {
+  background-color: #b5ccd4;
+}
+#content div:nth-child(2) {
+  background-color: #98a5b6;
+}
+#content div:nth-child(3) {
+  background-color: #bab7a8;
+}
+#content div:nth-child(4) {
+  background-color: #b5ccd4;
+}
+#content div:nth-child(5) {
+  background-color: #b5ccd4;
+}
+#content div:nth-child(6) {
+  background-color: #ef9e83;
+}
+#contentBottom div:nth-child(1) {
+  background-color: #98A5B6;
+}
+#contentBottom div:nth-child(2) {
+  background-color: #BAB7A8;
+}
+#contentBottom div:nth-child(3) {
+  background-color: #9BDFD0;
+}
+
+#header {
+  background-color: #628ba9;
+}
+#headIcons a {
+  color: gray;
+  text-decoration: none;
+}
+
+#description img {
+  height: 200px;
+}
+#description .img {
+  height: 200px;
+}
+.item {
+  height: 200px;
+  float: left;
+  display: inline;
+  width: 50%;
+  text-align: center;
+}
+.contentBottomItem {
+  width: 33.3333%;
+  height: 100px;
+  text-align: center;
+  float: left;
+  background-color: gray;
+}
+.contentNetwork {
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: #628BA9;
+}
+
+#content {
+  display: block;
+}
+.contentNetwork-inner:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#headIcons {
+  content: "";
+  display: block;
+  clear: both;
+}
+.contentNetwork-inner {
+  margin: 0 auto;
+}
+/* .contentNetwork {
+  background-color: blue;
+  padding: 50px;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.contentNetwork {
+  width: 90%;
+  margin: 0 auto;
+} */
+/* .contentNetwork-list {
+  margin: 0;
+  padding-left: 0;
+  
+}*/
+.contentNetwork-list a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: #504253;
+  text-align: center;
+  color: black;
+  padding: 15px;
+}

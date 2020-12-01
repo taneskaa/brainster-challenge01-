@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.menu {
+    background-color: lightblue;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu-inner:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .menu-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu-list {
+    margin: 0;
+    padding-left: 0;
+    float: right;
+  }
+  .menu-list a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu-list li {
+    margin-right: 20px;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+  }
+.applefa {
+    display: none;
+}
